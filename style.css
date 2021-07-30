@@ -1,0 +1,120 @@
+
+/*Colors and fonts */
+
+body{
+  background: #EEEEEE;
+  color: #433520;
+  font-family: courrier;
+  font-size: 20px;
+
+}
+
+h1, h2 {
+	font-family: Roboto;
+}
+
+h1{
+	color: #5B8A72;
+	font-size: 40px;
+}
+
+h2{
+	color: #5B8A72;
+	font-size: 32px;
+	font-weight: bolder;
+
+}
+
+a{ 
+text-decoration: none; 
+color: #433520 ;
+}
+
+a:hover {
+	color: white;
+}
+ 
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+
+.card-white{
+ background: white;
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+ border-radius: 8px;
+ margin: 20px 0px;
+ text-align: center;
+}
+
+#image-circle{
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+
+}
+.button-green{
+	background-color: #5B8A72;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 8px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	margin-top: 5px;
+}
+.button-green:hover{
+	background-color:#433520 ;
+	color: white;
+}
+
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+    display: inline; 
+    padding: 10px;
+ }
+
+.list-horizontal i:hover {
+	font-size: 50px;
+	color: #433520;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+	margin-top: 40px;
+
+}
+
+.photo-circle{ 
+border-radius: 50%;
+width: 110px;
+height: 110px;
+box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5)
+
+}
+
+#photo p {
+	margin-bottom: 40px;
+	
+
+	
+}
